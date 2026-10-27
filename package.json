@@ -1,0 +1,14 @@
+{
+  "name": "taskmaster-todo-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Production-ready Todo Application with Express, MongoDB, React, Vite, and Tailwind CSS",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "start:backend": "npm --prefix backend start",
+    "test:backend": "npm --prefix backend test",
+    "build:frontend": "npm --prefix frontend run build"
+  }
+}
